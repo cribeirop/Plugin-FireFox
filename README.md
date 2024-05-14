@@ -1,8 +1,10 @@
 # Plugin de Navegador
  
-<div style="text-align: center;">
-    <img src="icon.svg" width="250">
-</div>
+<!-- <div style="text-align: center;">
+    <img src="image.png" width="250">
+</div> -->
+
+![image](image.png)
 
 Este repositório contém um plugin para navegador FireFox desenvolvido como parte dos requisitos do projeto. O plugin tem como objetivo detectar e apresentar diversas informações relacionadas à navegação na web, incluindo conexões a domínios de terceiros, potenciais ameaças de sequestro de navegador, armazenamento de dados local e a quantidade de cookies e supercookies injetados em uma página.
 
