@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css"/>
+  </head>
+
+  <body>
+    <div class="icon">
+      <img src="icon.svg" alt="Plugin-Firefox" class="logo" />
+    </div>
+
+    <div class="container">
+      <details>
+        <summary id="cookiesSummary">Existing cookies</summary>
+        <div class="cookiesContainer">
+          <h3 id="cookies"></h3>
+        </div>
+        <h3>External Cookies:</h3>
+          <ul id="externalCookies"></ul>
+        <h3>Internal Cookies</h3>
+          <ul id="internalCookies"></ul>
+      </details>
+      <details>
+        <summary id="existingTabsSummary">Domains detected</summary>
+        <h3 id="existingTabs"></h3>
+        <details id="externalTabs">
+          <summary id="externalTabsDetails">External Domains</summary>
+          <ul id="existingTabsList"></ul>
+        </details>
+      </details>
+      <details>
+        <summary id="hijackingSummary">Hijacking Vulnerabilities</summary>
+        <ul id="hijackingVulnList"></ul>
+      </details>
+      <details>
+        <summary id="localStorageSummary">Local Storage</summary>
+        <h3>All data in local storage:</h3>
+        <ul id="localStorageList"></ul>
+      </details> 
+    </div> 
+    <script src="content.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .icon {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  details {
+    margin-bottom: 20px;
+  }
+  
+  summary {
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  .cookiesContainer {
+    margin-bottom: 10px;
+  }
+  
+  .cookiesContainer h3 {
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  #externalTabs {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #externalCookies {
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #internalCookies {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #localStorageList, #hijackingVulnList {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #externalTabsDetails {
+    font-weight: normal;
+  }
+  
+  
